@@ -6,10 +6,16 @@ type Props = {
   className?: string;
   type?: "button" | "submit" | "reset";
 };
-export const ButtonCustom = ({ children, onClick, className, type = "button" }: Props) => {
+const Button = ({ children, onClick, className, type = "button" }: Props) => {
   return (
-    <button type={type} onClick={onClick} className={`${className} btn bg-accent-light`}>
+    <button
+      type={type}
+      onClick={onClick}
+      className={`${className}  btn bg-accent text-[#fff] hover:bg-accent/70 px-4 py-2 `}
+    >
       {children}
     </button>
   );
 };
+
+export default Button;

@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontSize:{
-        h1: ['2.5rem', { lineHeight: '3rem' }], // Desktop: 40px
+        h1: ['2.5rem', { lineHeight: '2rem' }], // Desktop: 40px
         'h1-sm': ['2rem', { lineHeight: '2.5rem' }], 
         h2: ['2rem', { lineHeight: '2.5rem' }], // Desktop: 32px
         'h2-sm': ['1.5rem', { lineHeight: '2rem' }], // Mobile: 24px
