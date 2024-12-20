@@ -1,4 +1,3 @@
-import React from "react";
 import { Mail, MapPin, PhoneCall } from "react-feather";
 
 const Footer = () => {
@@ -36,30 +35,32 @@ const Footer = () => {
             <h3 className="text-h3-sm md:text-h3 text-accent italic mb-[6px]">
               Thông tin mua hàng và bảo hành
             </h3>
-            <p> Mua hàng: 0973 926 139 (8:00 - 22:00)</p>
-            <p> Sửa chữa: 0869 757 585 (8:00 - 22:00)</p>
-            <p> Bảo hành: 0973 976 139 (8:00 - 22:00)</p>
+            <div className="flex flex-col gap-4 text-[15px] italic">
+              <p> Mua hàng: 0973 926 139 (8:00 - 22:00)</p>
+              <p> Sửa chữa: 0869 757 585 (8:00 - 22:00)</p>
+              <p> Bảo hành: 0973 976 139 (8:00 - 22:00)</p>
+            </div>
 
-            <div className="flex flex-col gap-2">
-              <h3 className="text-h3-sm md:text-h3 text-accent italic mb-[6px]">
+            <div className="flex flex-col gap-2 text-[15px] italic">
+              <h3 className="text-h3-sm md:text-h3 text-accent mb-[5px]">
                 Liên Hệ
               </h3>
               <div className="flex items-center gap-4">
-                <PhoneCall size={"18px"} />
+                <PhoneCall size={"16px"} />
                 <span> 0973.926.139</span>
               </div>
-              <div className="flex items-center gap-4">
-                <Mail size={"18px"} />
+              <div className="flex items-center gap-4 ">
+                <Mail size={"16px"} />
                 <span>mayxaydungmoi.co@gmail.com</span>
               </div>
 
-              <div className="flex items-center gap-4">
-                <MapPin size={"18px"} />
+              <div className="flex items-center gap-4 ">
+                <MapPin size={"16px"} />
                 <span>
                   287 Tây Thạnh, Phường Tây Thạnh, Quận Tân Phú, TP.HCM
                 </span>
               </div>
-              <p>
+              <p className="">
                 Mã số thuế: 0316806043 do sở KH & ĐT TP.HCM cấp ngày 14/04/2021
               </p>
             </div>

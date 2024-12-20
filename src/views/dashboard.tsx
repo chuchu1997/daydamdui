@@ -46,12 +46,12 @@ const SectionMayMocXayDung = () => {
       <Section className="" id="maymocxaydung">
         <SectionTitle title="Thiết bị máy móc xây dựng " />
         <Grid>
-          <Card title="đầm cóc mikasa" imgSrc="/maymocxaydung/1.jpg" />
+          <Card title="đầm cóc mikasa" imgSrc="/maymocxaydung/6.jpg" />
           <Card title="máy cắt nhựa đường" imgSrc="/maymocxaydung/2.jpg" />
           <Card title="cối trộn bê tông" imgSrc="/maymocxaydung/3.jpg" />
           <Card title="đầm bàn mikasa" imgSrc="/maymocxaydung/4.jpg" />
           <Card title="máy cắt bê tông sthill" imgSrc="/maymocxaydung/5.jpg" />
-          <Card title="máy hàn điện tử" imgSrc="/maymocxaydung/6.jpg" />
+          <Card title="máy hàn điện tử" imgSrc="/maymocxaydung/1.jpg" />
         </Grid>
       </Section>
     </Suspense>
@@ -80,12 +80,12 @@ const SectionToiDien = () => {
       <Section className="" id="toidien">
         <SectionTitle title="Tời Điện -Plang- Con Đội " />
         <Grid>
-          <Card title="Tời Điện" imgSrc="/toidien/1.jpg" />
-          <Card title="Tời Điện" imgSrc="/toidien/2.jpg" />
+          <Card title="Đội thủy lực" imgSrc="/toidien/1.jpg" />
+          <Card title="Palang tay" imgSrc="/toidien/2.jpg" />
           <Card title="Tời Điện" imgSrc="/toidien/3.jpg" />
           <Card title="Tời Điện" imgSrc="/toidien/4.jpg" />
-          <Card title="Tời Điện" imgSrc="/toidien/5.jpg" />
-          <Card title="Tời Điện" imgSrc="/toidien/6.jpg" />
+          <Card title="Tời Điện Treo" imgSrc="/toidien/5.jpg" />
+          <Card title="Tời Điện Quả Nhót" imgSrc="/toidien/6.jpg" />
         </Grid>
       </Section>
     </Suspense>
@@ -152,7 +152,7 @@ const SectionDongCoNo = () => {
 };
 export const DashBoardView = ({}: Props) => {
   return (
-    <div className="mb-[40px] mt-[130px] container mx-auto flex flex-col gap-14 relative">
+    <div className="container mx-auto flex flex-col gap-14 relative">
       <Banner />
       <Services id="services" />
       <SectionDayDamDui />

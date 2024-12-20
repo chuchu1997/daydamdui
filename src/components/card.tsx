@@ -7,12 +7,12 @@ type Props = {
 };
 const Card = ({
   imgSrc = "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-  badge = "Thiết bị",
+  badge = "Thiết bị xây dựng",
   title,
 }: Props) => {
   return (
-    <div className=" card bg-[#ffffff] w-96 shadow-xl py-4 w-[100%] relative ">
-      <div className="badge bg-accent text-[#fff] px-4 py-4 absolute top-[5px] right-[5px]">
+    <div className=" card bg-[#ffffff] w-96 shadow-xl py-4 w-[100%] relative capitalize hover:scale-105 transform duration-300 ease-in-out">
+      <div className="badge bg-accent text-[#fff] px-4 py-4 absolute top-[5px] right-[5px] cap text-[12px]">
         {badge}
       </div>
       <figure>

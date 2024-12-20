@@ -1,6 +1,7 @@
 import { Mail, PhoneCall, MapPin } from "react-feather";
 import ButtonCustom from "./button";
 import { SocialIcon } from "react-social-icons";
+import { Link } from "react-router-dom";
 
 type Props = {};
 export const Navbar = ({}: Props) => {
@@ -88,9 +89,9 @@ export const Navbar = ({}: Props) => {
               target="_blank"
             />
           </div>
-          <a href="/">
+          <Link to="/">
             <img src="/logo/logo.png" className="h-14 w-30"></img>
-          </a>
+          </Link>
 
           {/* <div className="text-[#333333] font-semibold social-links hidden md:block">
             Dây Đầm Dùi

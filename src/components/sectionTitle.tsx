@@ -4,7 +4,7 @@ type Props = {
 };
 const SectionTitle = ({ title, className }: Props) => {
   return (
-    <div className="flex items-center justify-center py-10">
+    <div className={`${className} flex items-center justify-center py-10 `}>
       {/* Short line before */}
       <div className="h-[4px] w-12 bg-accent"></div>
       {/* Text */}

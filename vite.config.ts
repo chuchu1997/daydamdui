@@ -6,7 +6,6 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   build: {
-    ssr: "src/server/server.ts",
     outDir: "dist",
   },
   resolve: {

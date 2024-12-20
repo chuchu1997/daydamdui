@@ -18,7 +18,7 @@ type Props = {
   className?: string;
   children: React.ReactNode;
 };
-const Grid = ({ columns = 4, gap = 8, className, children }: Props) => {
+const Grid = ({ className, children }: Props) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -61,7 +61,9 @@ const Grid = ({ columns = 4, gap = 8, className, children }: Props) => {
   }
 
   return (
-    <div className={`grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-20`}>
+    <div
+      className={`${className} grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-20`}
+    >
       {children}
     </div>
   );
