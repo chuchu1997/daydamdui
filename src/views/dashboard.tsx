@@ -16,6 +16,8 @@ const Banner = () => {
       <img
         src="./banner/banner2.png"
         className="  w-full h-full object-contain"
+        alt="banner"
+        loading="lazy"
       ></img>
     </div>
   );
