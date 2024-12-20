@@ -28,7 +28,7 @@ export const Navbar = ({}: Props) => {
     <div className="drawer flex flex-col fixed top-0 z-50 bg-[#ffffff]">
       <div className="hidden lg:block bg-[#f2f2f2]  font-semibold top-header text-[14px] italic text-[#000]/60">
         <div className="container mx-auto py-2 flex items-center justify-between gap-8">
-          <div className="flex gap-8">
+          {/* <div className="flex gap-8">
             <div className="flex gap-2 items-center">
               <PhoneCall size={"18px"} />
               <span> 0973.926.139</span>
@@ -43,7 +43,9 @@ export const Navbar = ({}: Props) => {
             <span>
               Địa chỉ :287 Tây Thạnh, Phường Tây Thạnh, Quận Tân Phú, TP.HCM
             </span>
-          </div>
+          </div> */}
+
+          <span>Chào mừng bạn đến với Máy Xây Dựng Mới</span>
         </div>
       </div>
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -89,8 +91,12 @@ export const Navbar = ({}: Props) => {
               target="_blank"
             />
           </div>
-          <Link to="/">
-            <img src="/logo/logo.png" className="h-14 w-30" alt="logo"></img>
+          <Link
+            to="tel:0973926139"
+            className="text-[red] font-bold italic text-[18px]"
+          >
+            <p>0973 926 139</p>
+            {/* <img src="/logo/logo.png" className="h-14 w-30" alt="logo"></img> */}
           </Link>
 
           {/* <div className="text-[#333333] font-semibold social-links hidden md:block">
