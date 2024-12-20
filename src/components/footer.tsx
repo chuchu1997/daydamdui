@@ -14,9 +14,9 @@ const Footer = () => {
                 src="/logo/logo.png"
                 className="h-[100px] object-contain"
               ></img>
-              <div className="font-light italic mt-[10px]">
+              {/* <div className="font-light italic mt-[10px]">
                 Phân phối dây đầm dùi
-              </div>
+              </div> */}
             </div>
 
             <div className="flex flex-col gap-2">
