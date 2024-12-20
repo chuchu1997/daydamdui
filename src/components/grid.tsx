@@ -39,9 +39,9 @@ const Grid = ({ className, children }: Props) => {
     return (
       <CarouselProvider
         naturalSlideWidth={100}
-        naturalSlideHeight={100}
+        naturalSlideHeight={120}
         totalSlides={itemsInGrid.length}
-        className="text-[#000] w-10/12 mx-auto  relative bg-[none]"
+        className="text-[#000] w-10/12 mx-auto relative  bg-[none]"
       >
         <Slider>
           {itemsInGrid.map((item, index) => (
@@ -50,10 +50,10 @@ const Grid = ({ className, children }: Props) => {
             </Slide>
           ))}
         </Slider>
-        <ButtonBack className="absolute top-1/2 -translate-y-1/2 left-0 ">
+        <ButtonBack className="absolute top-[200px] -translate-y-1/2 left-0 ">
           <ArrowLeftCircle className="text-accent" size={"28px"} />
         </ButtonBack>
-        <ButtonNext className="absolute top-1/2 -translate-y-1/2 right-0">
+        <ButtonNext className="absolute top-[200px] -translate-y-1/2 right-0">
           <ArrowRightCircle className="text-accent" size={"28px"} />
         </ButtonNext>
       </CarouselProvider>
