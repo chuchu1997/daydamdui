@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
 
         <div className="divider divider-warning"></div>
-        <div className="text-center">
+        <div className="text-center text-[14px] italic ">
           © 2024 Dây Đầm Dùi . All rights reserved. Thiết kế website NguyenCuong
         </div>
       </div>
