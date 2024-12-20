@@ -10,7 +10,7 @@ const __dirname = dirname(__filename);
 const app = express();
 
 // Set the port number for the server
-const port = 4000;
+const port = 8800;
 
 
 console.log("DIRNAME",__dirname);
