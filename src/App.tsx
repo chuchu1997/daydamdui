@@ -8,7 +8,7 @@ import Body from "./components/body";
 import ErrorPage from "./views/error";
 function App() {
   return (
-    <>
+    <div className="font-jetbrains">
       <Navbar />
       <Body>
         <Routes>
@@ -19,7 +19,7 @@ function App() {
       </Body>
 
       <Footer />
-    </>
+    </div>
   );
 }
 

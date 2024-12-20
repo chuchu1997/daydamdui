@@ -91,13 +91,6 @@ export const Navbar = ({}: Props) => {
               target="_blank"
             />
           </div>
-          <Link
-            to="tel:0973926139"
-            className="text-[red] font-bold italic text-[18px]"
-          >
-            <p>0973 926 139</p>
-            {/* <img src="/logo/logo.png" className="h-14 w-30" alt="logo"></img> */}
-          </Link>
 
           {/* <div className="text-[#333333] font-semibold social-links hidden md:block">
             Dây Đầm Dùi
@@ -107,8 +100,8 @@ export const Navbar = ({}: Props) => {
               window.location.href = `tel:0973926139`;
             }}
           >
-            Liên Hệ
             <PhoneCall size={"18px"} />
+            Liên Hệ: 0973 926 139
           </ButtonCustom>
           {/* THIS IS OPEN HAMBUGER MENU */}
           {/* <div className="flex-none lg:hidden bg-accent-light rounded-lg ">

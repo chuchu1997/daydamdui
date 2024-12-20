@@ -6,14 +6,17 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        jetbrains: ['"JetBrains Mono"', 'monospace'], // Add JetBrains Mono
+      },
       fontSize:{
         h1: ['2.5rem', { lineHeight: '2rem' }], // Desktop: 40px
         'h1-sm': ['2rem', { lineHeight: '2.5rem' }], 
         h2: ['2rem', { lineHeight: '2.5rem' }], // Desktop: 32px
         'h2-sm': ['1.5rem', { lineHeight: '2rem' }], // Mobile: 24px
         // Mobile: 32px
-        h3: ['1.75rem', { lineHeight: '2rem' }], // Desktop: 28px
-        'h3-sm': ['1.25rem', { lineHeight: '1.75rem' }], // Mobile: 20px
+        h3: ['1.5rem', { lineHeight: '2rem' }], // Desktop: 28px
+        'h3-sm': ['1rem', { lineHeight: '1.75rem' }], // Mobile: 20px
         p: ['1rem', { lineHeight: '1.5rem' }], // Desktop & Mobile: 16px
       },
       colors: {

@@ -19,7 +19,9 @@ const Card = ({
         <img className="h-[160px]" src={imgSrc} alt={title} />
       </figure>
       <div className="card-body text-[#000000] ">
-        <h2 className="card-title italic font-semibold capitalize">{title}</h2>
+        <h2 className="card-title italic font-semibold capitalize text-[18px]">
+          {title}
+        </h2>
         {/* <p className="font-normal italic my-[10px]">
           Sản phẩm phục vụ cho xây dựng được phân phối bởi công ty mayxaydungmoi
         </p> */}
