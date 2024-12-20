@@ -79,6 +79,7 @@ const Services = ({ id }: Props) => {
               <div className="image-service">
                 <img
                   src={service.image}
+                  alt={service.title}
                   className="h-[70px] w-[80px] object-fill rounded-md"
                 ></img>
               </div>

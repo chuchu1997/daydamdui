@@ -90,7 +90,7 @@ export const Navbar = ({}: Props) => {
             />
           </div>
           <Link to="/">
-            <img src="/logo/logo.png" className="h-14 w-30"></img>
+            <img src="/logo/logo.png" className="h-14 w-30" alt="logo"></img>
           </Link>
 
           {/* <div className="text-[#333333] font-semibold social-links hidden md:block">
