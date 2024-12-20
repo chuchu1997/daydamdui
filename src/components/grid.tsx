@@ -41,7 +41,7 @@ const Grid = ({ className, children }: Props) => {
         naturalSlideWidth={100}
         naturalSlideHeight={120}
         totalSlides={itemsInGrid.length}
-        className="text-[#000] w-10/12 mx-auto relative  bg-[none]"
+        className="text-[#000] w-10/12 mx-auto relative  bg-[none] border border-[red]"
       >
         <Slider>
           {itemsInGrid.map((item, index) => (
