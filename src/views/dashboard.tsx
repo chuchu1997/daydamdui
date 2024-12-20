@@ -65,12 +65,12 @@ const SectionMayUonSat = () => {
       <Section className="" id="mayuonsat">
         <SectionTitle title="Máy Uốn Sắt - Cắt Sắt Thủy Lực " />
         <Grid>
-          <Card title="Uốn Sắt" imgSrc="/mayuonsat/1.jpg" />
-          <Card title="Uốn Sắt" imgSrc="/mayuonsat/2.jpg" />
-          <Card title="Uốn Sắt" imgSrc="/mayuonsat/3.jpg" />
-          <Card title="Uốn Sắt" imgSrc="/mayuonsat/4.jpg" />
-          <Card title="Uốn Sắt" imgSrc="/mayuonsat/5.jpg" />
-          <Card title="Uốn Sắt" imgSrc="/mayuonsat/6.jpg" />
+          <Card title="máy uốn sắt thủy lực" imgSrc="/mayuonsat/1.jpg" />
+          <Card title="máy chặt sắt thủy lực" imgSrc="/mayuonsat/2.jpg" />
+          <Card title="máy uốn và cắt sắt thủy lực" imgSrc="/mayuonsat/3.jpg" />
+          <Card title="máy cắt sắt thủy lực" imgSrc="/mayuonsat/4.jpg" />
+          <Card title="máy uốn sắt thủy lực" imgSrc="/mayuonsat/5.jpg" />
+          <Card title="máy uốn sắt thủy lực" imgSrc="/mayuonsat/6.jpg" />
         </Grid>
       </Section>
     </Suspense>
