@@ -188,7 +188,7 @@ export const DashBoardView = ({}: Props) => {
       <SectionLuoiCatBeTong />
       <SectionDongCoNo />
       <SectionCacDuAnTieuBieu />
-      <Button
+      {/* <Button
         aria-labelledby="btn-scroll-top"
         className="fixed bottom-[40px] right-[10px] rounded-full"
         onClick={() => {
@@ -198,7 +198,7 @@ export const DashBoardView = ({}: Props) => {
         }}
       >
         <ArrowUp />
-      </Button>
+      </Button> */}
     </div>
   );
 };
