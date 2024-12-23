@@ -152,6 +152,30 @@ const SectionDongCoNo = () => {
     </Suspense>
   );
 };
+
+const SectionCacDuAnTieuBieu = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Section className="" id="cacduantieubieu">
+        <SectionTitle title="Các dự án tiêu biểu" />
+        <h1>HELLO WORLD !!</h1>
+        <Grid>
+          <Card
+            title="Dây đầm dùi"
+            imgSrc="/daydamdui/1.jpg"
+            badge="máy phát"
+          />
+          <Card title="Động cơ nổ " imgSrc="/dongcono/1.jpg" badge="máy phát" />
+          <Card
+            title="Lưỡi cắt bê tông "
+            imgSrc="/luoicatbetong/1.jpg"
+            badge="máy phát"
+          />
+        </Grid>
+      </Section>
+    </Suspense>
+  );
+};
 export const DashBoardView = ({}: Props) => {
   return (
     <div className="container mx-auto flex flex-col gap-14 relative">
@@ -163,7 +187,7 @@ export const DashBoardView = ({}: Props) => {
       <SectionToiDien />
       <SectionLuoiCatBeTong />
       <SectionDongCoNo />
-
+      <SectionCacDuAnTieuBieu />
       <Button
         aria-labelledby="btn-scroll-top"
         className="fixed bottom-[40px] right-[10px] rounded-full"

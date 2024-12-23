@@ -19,15 +19,22 @@ const Footer = () => {
               </div> */}
             </div>
 
-            <div className="flex flex-col gap-2">
-              <h3 className="text-h3-sm md:text-h3 text-accent italic">
-                Về chúng tôi
-              </h3>
-              <p className="text-[16px] italic">
-                Chúng tôi luôn muốn mang đến các sản phẩm chất lượng để người
-                dùng có trải nghiệm tốt nhất
-              </p>
-            </div>
+            <ul className="list-disc flex flex-col gap-2">
+              <li>
+                <p className="text-[16px] italic">
+                  Chúng tôi luôn muốn mang đến các sản phẩm chất lượng để người
+                  dùng có trải nghiệm tốt nhất
+                </p>
+              </li>
+              <li>
+                <p className="text-[16px] italic">
+                  Công Ty TNHH TM Dụng Cụ Tổng Hợp
+                </p>
+              </li>
+              <li>
+                <p className="text-[16px] italic">Mã số thuế : 0316806043</p>
+              </li>
+            </ul>
           </div>
 
           {/* RIGHT */}
@@ -60,9 +67,6 @@ const Footer = () => {
                   287 Tây Thạnh, Phường Tây Thạnh, Quận Tân Phú, TP.HCM
                 </span>
               </div>
-              <p className="">
-                Mã số thuế: 0316806043 do sở KH & ĐT TP.HCM cấp ngày 14/04/2021
-              </p>
             </div>
           </div>
         </div>
