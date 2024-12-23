@@ -8,7 +8,7 @@ import Body from "./components/body";
 import ErrorPage from "./views/error";
 import Button from "./components/button";
 import { PhoneCall } from "react-feather";
-import { SocialIcon } from "react-social-icons";
+
 function App() {
   return (
     <div className="font-jetbrains relative ">

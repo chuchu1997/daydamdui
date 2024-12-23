@@ -1,7 +1,6 @@
 // import { SectionTitle } from "@/components/sectionTitle";
 import { lazy, Suspense } from "react";
-import Button from "../components/button";
-import { ArrowUp } from "react-feather";
+
 const Grid = lazy(() => import("../components/grid"));
 const Card = lazy(() => import("../components/card"));
 const Section = lazy(() => import("../components/section"));
