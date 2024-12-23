@@ -24,11 +24,26 @@ function App() {
       <Footer />
 
       <div className="  fixed bottom-0 left-0 right-0 flex md:hidden justify-center gap-4 ">
-        <Button className="flex-1">
+        <Button
+          className="flex-1 flex items-center"
+          as="a"
+          href="tel:0973926139"
+        >
           <PhoneCall size={"18px"} />
           <span>0973.926.139</span>
         </Button>
-        <Button className="flex-1">Zalo</Button>
+        <Button
+          className="flex-1 flex items-center"
+          as="a"
+          href="https://zalo.me/0869229639"
+        >
+          <img
+            src="/zalo.png"
+            alt="zalo icon"
+            className="h-8 w-8 object-cover"
+          ></img>
+          <span>Zalo</span>
+        </Button>
       </div>
     </div>
   );
