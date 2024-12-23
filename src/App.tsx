@@ -35,7 +35,7 @@ function App() {
         <Button
           className="flex-1 flex items-center"
           as="a"
-          href="https://zalo.me/0869229639"
+          href="https://zalo.me/0973926139"
         >
           <img
             src="/zalo.png"
