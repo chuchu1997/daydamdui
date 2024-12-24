@@ -25,7 +25,7 @@ const SectionDayDamDui = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Section className="" id="daydamdui">
-        <SectionTitle title="Dây Đầm Dùi" />
+        <SectionTitle title="Dây Đầm Dùi" type="h1" />
         <Grid>
           <Card title="máy xoa nền" imgSrc="/daydamdui/1.jpg" />
           <Card
