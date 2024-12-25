@@ -8,6 +8,7 @@ import Body from "./components/body";
 import ErrorPage from "./views/error";
 import Button from "./components/button";
 import { PhoneCall } from "react-feather";
+import BlockSidebar from "./components/blockSidebar";
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
 
       <Footer />
 
-      <div className="  fixed bottom-0 left-0 right-0 flex md:hidden justify-center gap-4 ">
+      <BlockSidebar />
+
+      <div className="fixed bottom-0 left-0 right-0 flex md:hidden justify-center gap-4 ">
         <Button
           className="flex-1 flex items-center"
           as="a"

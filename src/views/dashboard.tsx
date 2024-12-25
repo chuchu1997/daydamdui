@@ -155,10 +155,21 @@ const SectionDongCoNo = () => {
 const SectionCacDuAnTieuBieu = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <Section className="" id="cacduantieubieu">
-        <SectionTitle title="Các dự án tiêu biểu" />
-        <h1>HELLO WORLD !!</h1>
-        <Grid>
+      <Section className="" id="video">
+        <SectionTitle title="Video Sản Phẩm" />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <video controls>
+              <source src="/video1.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div>
+            <video controls>
+              <source src="/video2.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        {/* <Grid>
           <Card
             title="Dây đầm dùi"
             imgSrc="/daydamdui/1.jpg"
@@ -170,11 +181,12 @@ const SectionCacDuAnTieuBieu = () => {
             imgSrc="/luoicatbetong/1.jpg"
             badge="máy phát"
           />
-        </Grid>
+        </Grid> */}
       </Section>
     </Suspense>
   );
 };
+
 export const DashBoardView = ({}: Props) => {
   return (
     <div className="container mx-auto flex flex-col gap-14 relative">
