@@ -13,7 +13,7 @@ const BlockSidebar = () => {
     <div
       className={`sort-dock bg-red fixed right-0 top-40 ${
         sort ? "w-[60px]" : "w-[120px]"
-      } px-2 pt-10 pb-4 z-50 bg-accent rounded-md flex flex-col gap-4 text-black transition-width duration-500 overflow-hidden`}
+      } px-2 pt-10 pb-4 z-50 bg-accent rounded-md hidden md:flex flex-col gap-4 text-black transition-width duration-500 overflow-hidden`}
     >
       <div
         className="absolute top-2 left-2 text-white cursor-pointer "

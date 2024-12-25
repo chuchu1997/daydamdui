@@ -1,6 +1,7 @@
 import { PhoneCall } from "react-feather";
 import ButtonCustom from "./button";
 import { SocialIcon } from "react-social-icons";
+import { Link } from "react-router-dom";
 
 type Props = {};
 export const Navbar = ({}: Props) => {
@@ -27,30 +28,8 @@ export const Navbar = ({}: Props) => {
     <div className="drawer flex flex-col fixed top-0 z-50 bg-[#ffffff]">
       <div className="hidden lg:block bg-[#f2f2f2]  font-semibold top-header text-[14px] italic text-[#000]/60">
         <div className="container mx-auto py-2 flex items-center justify-between gap-8">
-          {/* <div className="flex gap-8">
-            <div className="flex gap-2 items-center">
-              <PhoneCall size={"18px"} />
-              <span> 0973.926.139</span>
-            </div>
-            <div className="flex gap-2 items-center">
-              <Mail size={"18px"} />
-              <span> mayxaydungmoi.co@gmail.com</span>
-            </div>
-          </div>
-          <div className="flex gap-2 items-center">
-            <MapPin size={"18px"} />
-            <span>
-              Địa chỉ :287 Tây Thạnh, Phường Tây Thạnh, Quận Tân Phú, TP.HCM
-            </span>
-          </div> */}
-
           <span>Chào mừng bạn đến với Máy Xây Dựng Mới</span>
-        </div>
-      </div>
-      <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-      <div className="drawer-content flex flex-col">
-        <div className="navbar w-full  container mx-auto flex justify-between items-center border-b border-[#f1f1f1]">
-          <div className="text-[#333333] font-semibold social-links gap-4 ">
+          <div className="text-[#333333] font-semibold social-links gap-4 flex ">
             <SocialIcon
               as="a"
               network="facebook"
@@ -90,40 +69,30 @@ export const Navbar = ({}: Props) => {
               target="_blank"
             />
           </div>
-
-          {/* <div className="text-[#333333] font-semibold social-links hidden md:block">
-            Dây Đầm Dùi
-          </div> */}
-          <ButtonCustom
-            onClick={() => {
-              window.location.href = `tel:0973926139`;
-            }}
-          >
-            <PhoneCall size={"18px"} />
-            Liên Hệ: 0973 926 139
-          </ButtonCustom>
-          {/* THIS IS OPEN HAMBUGER MENU */}
-          {/* <div className="flex-none lg:hidden bg-accent-light rounded-lg ">
-            <label
-              htmlFor="my-drawer-3"
-              aria-label="open sidebar"
-              className="btn btn-square btn-ghost"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                className="inline-block h-6 w-6 stroke-current"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
-              </svg>
-            </label>
-          </div> */}
+        </div>
+      </div>
+      <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+      <div className="drawer-content flex flex-col">
+        <div className="navbar w-full  container mx-auto flex justify-between items-center border-b border-[#f1f1f1]">
+          <Link to="/">
+            <img src="/logo/logo.png" alt="logo" width={120} height={50}></img>
+          </Link>
+          <div className="flex gap-8 justify-between items-end overflow-hidden ml-[20px]">
+            <img src="/brands/1.jpg" alt="honda" width={140} className=""></img>
+            <img src="/brands/2.jpg" alt="panapro" width={140}></img>
+            <img
+              src="/brands/3.jpg"
+              alt="mikasa"
+              width={140}
+              className="hidden md:block"
+            ></img>
+            <img
+              src="/brands/4.jpg"
+              alt="seaoul"
+              width={140}
+              className="hidden md:block"
+            ></img>
+          </div>
         </div>
       </div>
       <div className="drawer-side">

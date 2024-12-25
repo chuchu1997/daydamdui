@@ -187,6 +187,24 @@ const SectionCacDuAnTieuBieu = () => {
   );
 };
 
+const SectionTialaser = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Section className="" id="tialaser">
+        <SectionTitle title="Thương hiệu dụng cụ điện - Tia laser" />
+        <Grid>
+          <Card title="" imgSrc="/tialaser/1.jpg" />
+          <Card title="" imgSrc="/tialaser/2.jpg" />
+          <Card title="" imgSrc="/tialaser/3.jpg" />
+          <Card title="" imgSrc="/tialaser/4.jpg" />
+          <Card title="" imgSrc="/tialaser/5.jpg" />
+          <Card title="" imgSrc="/tialaser/6.jpg" />
+        </Grid>
+      </Section>
+    </Suspense>
+  );
+};
+
 export const DashBoardView = ({}: Props) => {
   return (
     <div className="container mx-auto flex flex-col gap-14 relative">
@@ -198,7 +216,9 @@ export const DashBoardView = ({}: Props) => {
       <SectionToiDien />
       <SectionLuoiCatBeTong />
       <SectionDongCoNo />
+      <SectionTialaser />
       <SectionCacDuAnTieuBieu />
+
       {/* <Button
         aria-labelledby="btn-scroll-top"
         className="fixed bottom-[40px] right-[10px] rounded-full"
