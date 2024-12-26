@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         jetbrains: ['"JetBrains Mono"', 'monospace'], // Add JetBrains Mono
+        sans: ['"Open Sans"', 'sans-serif'], 
       },
       fontSize:{
         h1: ['2.5rem', { lineHeight: '2rem' }], // Desktop: 40px

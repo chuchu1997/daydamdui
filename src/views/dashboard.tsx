@@ -216,8 +216,8 @@ export const DashBoardView = ({}: Props) => {
       <SectionToiDien />
       <SectionLuoiCatBeTong />
       <SectionDongCoNo />
-      <SectionTialaser />
       <SectionCacDuAnTieuBieu />
+      <SectionTialaser />
 
       {/* <Button
         aria-labelledby="btn-scroll-top"

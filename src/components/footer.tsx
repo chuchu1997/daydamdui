@@ -2,10 +2,10 @@ import { Mail, MapPin, PhoneCall } from "react-feather";
 
 const Footer = () => {
   return (
-    <footer className=" min-h-[200px] bg-[#333333]">
+    <footer className=" min-h-[200px] bg-[#333333] pb-[50px] font-sans">
       <div className="container mx-auto footer-content py-[40px] px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-10 items-center md:items-start">
             <h3 className="text-h3-sm md:text-h3 text-accent italic">
               Công Ty TNHH TM Dụng Cụ Tổng Hợp
             </h3>
@@ -19,7 +19,7 @@ const Footer = () => {
               </div> */}
             </div>
 
-            <ul className="list-disc flex flex-col gap-2">
+            <ul className="list-disc flex flex-col ml-[10px] md:ml-[0px] gap-2">
               <li>
                 <p className="text-[16px] italic">
                   Chúng tôi luôn muốn mang đến các sản phẩm chất lượng để người
