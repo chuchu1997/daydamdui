@@ -1,0 +1,24 @@
+# Loại bỏ thư mục node_modules (do đã cài đặt lại trong container)
+node_modules/
+
+# Loại bỏ thư mục build (dist) nếu bạn muốn Docker chỉ build lại khi cần
+dist/
+
+# Loại bỏ các tệp log
+*.log
+
+# Loại bỏ các tệp và thư mục của IDE (VSCode, JetBrains, v.v.)
+.vscode/
+.idea/
+
+# Loại bỏ tệp môi trường (như .env, .env.local) để tránh bị lộ thông tin nhạy cảm
+.env
+.env.local
+
+# Loại bỏ tệp cấu hình hệ thống (như .DS_Store trên macOS)
+.DS_Store
+
+# Loại bỏ các thư mục và tệp không cần thiết khác
+npm-debug.log
+yarn-debug.log
+yarn-error.log
