@@ -41,5 +41,5 @@ jobs:
         tags: tuilanguyencuong@gmail.com/nextjs-app:latest
 
     # Sửa lại để in ra thông tin về digest của image vừa build
-    - name: Output image digest
-      run: echo "Image digest: ${{ steps.build.outputs.digest }}"
+    - name: Verify
+        run: echo ${{ steps.docker_build.outputs.digest }}
