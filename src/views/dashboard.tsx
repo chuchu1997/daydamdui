@@ -1,4 +1,5 @@
 // import { SectionTitle } from "@/components/sectionTitle";
+import { CarouselProvider, Slide, Slider } from "pure-react-carousel";
 import { lazy, Suspense } from "react";
 
 const Grid = lazy(() => import("../components/grid"));
@@ -12,12 +13,71 @@ type Props = {};
 const Banner = () => {
   return (
     <div className="">
-      <img
-        src="./banner/banner2.png"
-        className="  w-full h-full object-contain"
-        alt="dây đầm dùi (daydamdui.com)"
-        loading="lazy"
-      ></img>
+      <CarouselProvider
+        naturalSlideWidth={10}
+        naturalSlideHeight={4}
+        isPlaying={true}
+        totalSlides={6}
+        className="text-[#000] w-10/12 mx-auto relative  bg-[none] border border-transparent"
+      >
+        <Slider>
+          <Slide index={0}>
+            <img
+              src="./banner/1.png"
+              className="  w-full h-full object-contain"
+              alt="dây đầm dùi (daydamdui.com)"
+              loading="lazy"
+            ></img>
+          </Slide>
+          <Slide index={1}>
+            <img
+              src="./banner/2.png"
+              className="  w-full h-full object-contain"
+              alt="dây đầm dùi (daydamdui.com)"
+              loading="lazy"
+            ></img>
+          </Slide>
+          <Slide index={2}>
+            <img
+              src="./banner/3.png"
+              className="  w-full h-full object-contain"
+              alt="dây đầm dùi (daydamdui.com)"
+              loading="lazy"
+            ></img>
+          </Slide>
+          <Slide index={3}>
+            <img
+              src="./banner/4.png"
+              className="  w-full h-full object-contain"
+              alt="dây đầm dùi (daydamdui.com)"
+              loading="lazy"
+            ></img>
+          </Slide>
+          <Slide index={4}>
+            <img
+              src="./banner/5.png"
+              className="  w-full h-full object-contain"
+              alt="dây đầm dùi (daydamdui.com)"
+              loading="lazy"
+            ></img>
+          </Slide>
+          <Slide index={5}>
+            <img
+              src="./banner/6.png"
+              className="  w-full h-full object-contain"
+              alt="dây đầm dùi (daydamdui.com)"
+              loading="lazy"
+            ></img>
+          </Slide>
+        </Slider>
+
+        {/* <ButtonBack className="absolute top-[150px] -translate-y-1/2 left-0 ">
+          <ArrowLeftCircle className="text-accent" size={"28px"} />
+        </ButtonBack>
+        <ButtonNext className="absolute top-[150px] -translate-y-1/2 right-0">
+          <ArrowRightCircle className="text-accent" size={"28px"} />
+        </ButtonNext> */}
+      </CarouselProvider>
     </div>
   );
 };
