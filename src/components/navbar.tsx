@@ -32,7 +32,7 @@ export const Navbar = ({}: Props) => {
             <SocialIcon
               as="a"
               network="facebook"
-              href="https://www.facebook.com/mayxaydungmoi"
+              href="https://www.facebook.com/daydamdui"
               bgColor="red"
               fgColor="white"
               style={{ width: "18px", height: "18px" }}
@@ -51,14 +51,14 @@ export const Navbar = ({}: Props) => {
             <SocialIcon
               as="a"
               network="tiktok"
-              href="/"
+              href="https://www.tiktok.com/@mayxaydungmoi"
               bgColor="red"
               fgColor="white"
               style={{ width: "18px", height: "18px" }}
               target="_blank"
             />
 
-            <SocialIcon
+            {/* <SocialIcon
               as="a"
               network="google"
               href="/"
@@ -66,7 +66,7 @@ export const Navbar = ({}: Props) => {
               fgColor="white"
               style={{ width: "18px", height: "18px" }}
               target="_blank"
-            />
+            /> */}
           </div>
         </div>
       </div>
