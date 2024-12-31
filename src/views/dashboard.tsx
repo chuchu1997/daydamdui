@@ -268,6 +268,7 @@ const SectionTialaser = () => {
 export const DashBoardView = ({}: Props) => {
   return (
     <div className="container mx-auto flex flex-col gap-14 relative">
+      <div className="bg-[red]">THIS IS TEST DAY DAM DUI!!!!</div>
       <Banner />
       <Services id="services" />
       <SectionDayDamDui />
