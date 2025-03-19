@@ -268,6 +268,7 @@ const SectionTialaser = () => {
 export const DashBoardView = () => {
   return (
     <div className="container mx-auto flex flex-col gap-14 relative">
+      <div>CUONG TEST</div>
       <Banner />
       <Services id="services" />
       <SectionDayDamDui />
