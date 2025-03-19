@@ -23,7 +23,7 @@ const Banner = () => {
         <Slider>
           <Slide index={0}>
             <img
-              src="./banner/1.png"
+              src="/banner/1.png"
               className="  w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
               loading="lazy"
@@ -31,7 +31,7 @@ const Banner = () => {
           </Slide>
           <Slide index={1}>
             <img
-              src="./banner/2.png"
+              src="/banner/2.png"
               className="  w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
               loading="lazy"
@@ -39,23 +39,23 @@ const Banner = () => {
           </Slide>
           <Slide index={2}>
             <img
-              src="./banner/3.png"
-              className="  w-full h-full object-contain"
+              src="/banner/3.png"
+              className="w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
               loading="lazy"
             ></img>
           </Slide>
           <Slide index={3}>
             <img
-              src="./banner/4.png"
-              className="  w-full h-full object-contain"
+              src="/banner/4.png"
+              className="w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
               loading="lazy"
             ></img>
           </Slide>
           <Slide index={4}>
             <img
-              src="./banner/5.png"
+              src="/banner/5.png"
               className="  w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
               loading="lazy"
@@ -63,8 +63,8 @@ const Banner = () => {
           </Slide>
           <Slide index={5}>
             <img
-              src="./banner/6.png"
-              className="  w-full h-full object-contain"
+              src="/banner/6.png"
+              className="w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
               loading="lazy"
             ></img>
