@@ -24,13 +24,13 @@ const Banner = () => {
           <Slide index={0}>
             <img
               src="/banner/1.png"
-              className="  w-full h-full object-contain"
+              className=" w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
              ></img>
           </Slide>
           <Slide index={1}>
             <img
-              src="banner/2.png"
+              src="/banner/2.png"
               className="  w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
              ></img>
