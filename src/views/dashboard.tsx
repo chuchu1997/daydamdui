@@ -23,45 +23,45 @@ const Banner = () => {
         <Slider>
           <Slide index={0}>
             <img
-              src="https://daydamdui.com/banner/1.png"
+              src="/banner/1.png"
               className="  w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"></img>
+             ></img>
           </Slide>
           <Slide index={1}>
             <img
-              src="https://daydamdui.com/banner/2.png"
+              src="banner/2.png"
               className="  w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"></img>
+             ></img>
           </Slide>
           <Slide index={2}>
             <img
-              src="https://daydamdui.com/banner/3.png"
+              src="/banner/3.png"
               className="w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"></img>
+             ></img>
           </Slide>
           <Slide index={3}>
             <img
-              src="https://daydamdui.com/banner/4.png"
+              src="/banner/4.png"
               className="w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"></img>
+              ></img>
           </Slide>
           <Slide index={4}>
             <img
-              src="https://daydamdui.com/banner/5.png"
+              src="/banner/5.png"
               className="  w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"></img>
+             ></img>
           </Slide>
           <Slide index={5}>
             <img
-              src="https://daydamdui.com/banner/6.png"
+              src="/banner/6.png"
               className="w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"></img>
+              ></img>
           </Slide>
         </Slider>
 
