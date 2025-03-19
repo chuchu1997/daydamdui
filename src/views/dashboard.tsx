@@ -9,7 +9,7 @@ const SectionTitle = lazy(() => import("../components/sectionTitle"));
 
 const Services = lazy(() => import("../components/services"));
 
-type Props = {};
+
 const Banner = () => {
   return (
     <div className="">
@@ -265,7 +265,7 @@ const SectionTialaser = () => {
   );
 };
 
-export const DashBoardView = ({}: Props) => {
+export const DashBoardView = () => {
   return (
     <div className="container mx-auto flex flex-col gap-14 relative">
       <Banner />
