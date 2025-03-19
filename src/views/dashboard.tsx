@@ -1,3 +1,5 @@
+/** @format */
+
 // import { SectionTitle } from "@/components/sectionTitle";
 import { CarouselProvider, Slide, Slider } from "pure-react-carousel";
 import { lazy, Suspense } from "react";
@@ -9,7 +11,6 @@ const SectionTitle = lazy(() => import("../components/sectionTitle"));
 
 const Services = lazy(() => import("../components/services"));
 
-
 const Banner = () => {
   return (
     <div className="">
@@ -18,56 +19,49 @@ const Banner = () => {
         naturalSlideHeight={4}
         isPlaying={true}
         totalSlides={6}
-        className="text-[#000] w-10/12 mx-auto relative  bg-[none] border border-transparent"
-      >
+        className="text-[#000] w-10/12 mx-auto relative  bg-[none] border border-transparent">
         <Slider>
           <Slide index={0}>
             <img
-              src="/banner/1.png"
+              src="https://daydamdui.com/banner/1.png"
               className="  w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"
-            ></img>
+              loading="lazy"></img>
           </Slide>
           <Slide index={1}>
             <img
-              src="/banner/2.png"
+              src="https://daydamdui.com/banner/2.png"
               className="  w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"
-            ></img>
+              loading="lazy"></img>
           </Slide>
           <Slide index={2}>
             <img
-              src="/banner/3.png"
+              src="https://daydamdui.com/banner/3.png"
               className="w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"
-            ></img>
+              loading="lazy"></img>
           </Slide>
           <Slide index={3}>
             <img
-              src="/banner/4.png"
+              src="https://daydamdui.com/banner/4.png"
               className="w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"
-            ></img>
+              loading="lazy"></img>
           </Slide>
           <Slide index={4}>
             <img
-              src="/banner/5.png"
+              src="https://daydamdui.com/banner/5.png"
               className="  w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"
-            ></img>
+              loading="lazy"></img>
           </Slide>
           <Slide index={5}>
             <img
-              src="/banner/6.png"
+              src="https://daydamdui.com/banner/6.png"
               className="w-full h-full object-contain"
               alt="dây đầm dùi (daydamdui.com)"
-              loading="lazy"
-            ></img>
+              loading="lazy"></img>
           </Slide>
         </Slider>
 
@@ -268,7 +262,6 @@ const SectionTialaser = () => {
 export const DashBoardView = () => {
   return (
     <div className="container mx-auto flex flex-col gap-14 relative">
-      <div>CUONG TEST</div>
       <Banner />
       <Services id="services" />
       <SectionDayDamDui />
