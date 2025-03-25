@@ -1,5 +1,4 @@
 import ButtonCustom from "./button";
-import { SocialIcon } from "react-social-icons";
 import { Link } from "react-router-dom";
 
 type Props = {};
@@ -27,8 +26,8 @@ export const Navbar = ({}: Props) => {
     <div className="drawer flex flex-col fixed top-0 z-50 bg-[#ffffff]">
       <div className="hidden lg:block bg-[#f2f2f2]  font-semibold top-header text-[14px] italic text-[#000]/60">
         <div className="container mx-auto py-2 flex items-center justify-between gap-8">
-          <span>Chào mừng bạn đến với Máy Xây Dựng Mới</span>
-          <div className="text-[#333333] font-semibold social-links gap-4 flex ">
+          <span>Tổng đài tư vấn: 0973926139</span>
+          {/* <div className="text-[#333333] font-semibold social-links gap-4 flex ">
             <SocialIcon
               as="a"
               network="facebook"
@@ -58,16 +57,7 @@ export const Navbar = ({}: Props) => {
               target="_blank"
             />
 
-            {/* <SocialIcon
-              as="a"
-              network="google"
-              href="/"
-              bgColor="red"
-              fgColor="white"
-              style={{ width: "18px", height: "18px" }}
-              target="_blank"
-            /> */}
-          </div>
+          </div> */}
         </div>
       </div>
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
