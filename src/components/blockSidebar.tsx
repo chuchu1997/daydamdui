@@ -5,6 +5,7 @@ const items = [
   // },
   { title: "Chat Zalo", icon: "/zalo.png", href: "http://zalo.me/0973926139" },
   { title: "Gọi điện", icon: "/phone.png", href: "tel:0973926139" },
+  { title: "Facebook", icon: "/facebook.png", href: "https://www.facebook.com/daydamdui" },
   // { title: "Messager", icon: "/messager.jpg" },
 ];
 const BlockSidebar = () => {
