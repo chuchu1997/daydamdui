@@ -5,7 +5,7 @@ const BlockPhoneNumber = () => {
     <div className="hidden sm:block">
       <div className=" fixed z-50 bottom-[150px] right-[20px] bg-accent rounded-full p-2 px-4 flex items-center gap-x-2">
         <img
-          src={"images/socials/phone.png"}
+          src={"/phone.png"}
           alt="icon"
           width={35}
           height={35}
