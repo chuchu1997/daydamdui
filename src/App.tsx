@@ -32,15 +32,15 @@ function App() {
         <Button
           className="flex-1 flex items-center"
           as="a"
-          href="tel:0973926139"
+          href="tel:0973976139"
         >
           <PhoneCall size={"18px"} />
-          <span>0973.926.139</span>
+          <span>0973.976.139</span>
         </Button>
         <Button
           className="flex-1 flex items-center"
           as="a"
-          href="https://zalo.me/0973926139"
+          href="https://zalo.me/0973976139"
         >
           <img
             src="/zalo.png"

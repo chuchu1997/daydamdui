@@ -10,7 +10,7 @@ const BlockPhoneNumber = () => {
           width={35}
           height={35}
           className="group-hover:scale-125 scale-100 transition-all duration-400"></img>
-        <span className="text-white font-semibold "> 0973 926 139</span>
+        <span className="text-white font-semibold "> 0973 976 139</span>
       </div>
     </div>
   );
