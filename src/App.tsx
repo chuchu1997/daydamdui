@@ -9,6 +9,7 @@ import ErrorPage from "./views/error";
 import Button from "./components/button";
 import { PhoneCall } from "react-feather";
 import BlockSidebar from "./components/blockSidebar";
+import BlockPhoneNumber from "./components/BlockPhoneNumber";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Footer />
 
       <BlockSidebar />
+      <BlockPhoneNumber/>
 
       <div className="fixed bottom-0 left-0 right-0 flex md:hidden justify-center gap-4 ">
         <Button

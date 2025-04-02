@@ -1,12 +1,17 @@
+'use client';
 import { useState } from "react";
-import { AlignLeft, AlignRight } from "react-feather";
-import { Link } from "react-router-dom";
+import { AlignLeft, AlignRight } from "lucide-react";
+import Link from "next/link";
+import { PHONE_NUMBER } from "@/constants/phone";
+
 const items = [
   // },
-  { title: "Chat Zalo", icon: "/zalo.png", href: "http://zalo.me/0973926139" },
-  { title: "Facebook", icon: "/facebook.png", href: "https://www.facebook.com/daydamdui" },
-  { title: "Tiktok", icon: "/tiktok.png", href: `https://www.tiktok.com/@mayxaydungmoi` },
-  { title: "Youtube", icon: "/youtube.png", href: `https://www.youtube.com/@mayxaydungmoi` },
+  { title: "Chat Zalo", icon: "/images/socials/zalo.png", href: `http://zalo.me/${PHONE_NUMBER}` },
+  // { title: "Messager", icon: "/messager.jpg" },
+  { title: "Facebook", icon: "/images/socials/facebook.png", href: `https://www.facebook.com/bancatgachdaytay` },
+  { title: "Tiktok", icon: "/images/socials/tiktok.png", href: `https://www.tiktok.com/@bancatgach` },
+  { title: "Youtube", icon: "/images/socials/youtube.png", href: `https://www.youtube.com/@mayxaydungmoi` },
+
   // { title: "Messager", icon: "/messager.jpg" },
 ];
 const BlockSidebar = () => {
@@ -28,7 +33,7 @@ const BlockSidebar = () => {
       {items.map((item, index) => {
         return (
           <Link
-            to={item.href}
+            href={item.href}
             key={index}
             className="bg-white p-2 flex flex-col justify-center items-center gap-4 rounded-md cursor-pointer group transition-all duration-400"
           >
@@ -39,11 +44,11 @@ const BlockSidebar = () => {
               height={35}
               className="group-hover:scale-125 scale-100 transition-all duration-400"
             ></img>
-            <p
+          <p
               className={`${
                 sort
                   ? "hidden"
-                  : "text-black/80 text-center text-sm group-hover:text-accent "
+                  : "text-black/80 font-semibold text-center text-sm group-hover:text-accent "
               }`}
             >
               {item.title}

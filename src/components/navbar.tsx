@@ -26,8 +26,10 @@ export const Navbar = ({}: Props) => {
     <div className="drawer flex flex-col fixed top-0 z-50 bg-[#ffffff]">
       <div className="hidden lg:block bg-[#f2f2f2]  font-semibold top-header text-[14px] italic text-[#000]/60">
         <div className="container mx-auto py-2 flex items-center justify-between gap-8">
-          <span>Tổng đài tư vấn: 0973926139 - 0973976139 </span>
-          {/* <div className="text-[#333333] font-semibold social-links gap-4 flex ">
+        <h3 className="flex items-center gap-x-3 text-black  italic font-semibold transition-transform duration-200 hover:scale-[1.2]">
+         
+              <span>Hotline: 0973 926 139 - 0973 976 139</span>
+            </h3>          {/* <div className="text-[#333333] font-semibold social-links gap-4 flex ">
             <SocialIcon
               as="a"
               network="facebook"
